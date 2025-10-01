@@ -13,6 +13,10 @@
         @csrf
         <div class="row g-3">
             <div class="col-md-6">
+                <label for="id_tamu" class="form-label">ID Tamu</label>
+                <input type="text" name="id_tamu" class="form-control" required>
+            </div>
+            <div class="col-md-6">
                 <label for="nama_tamu" class="form-label">Nama</label>
                 <input type="text" name="nama_tamu" class="form-control" required>
             </div>
